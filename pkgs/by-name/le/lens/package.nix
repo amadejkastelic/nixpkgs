@@ -21,7 +21,7 @@ let
     };
     aarch64-darwin = {
       url = "https://api.k8slens.dev/binaries/Lens-${version}-latest-arm64.dmg";
-      hash = lib.fakeHash;
+      hash = "sha256-1XbVOAf03kUbnB9nD/AG22BROzfYUy6cXCUPhoKDuc0=";
     };
   };
 
